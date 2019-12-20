@@ -1,0 +1,12 @@
+(library
+ (name        dm_json_encoders)
+ (public_name dm-json-encoders)
+ (libraries
+   sexplib
+   fmt
+   uuidm
+   fixtypes
+   ptime
+   uri
+   ezjsonm
+   ocplib-json-typed))
